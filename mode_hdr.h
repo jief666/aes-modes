@@ -26,7 +26,7 @@ This header file is an INTERNAL file which supports mode implementation
 #include <string.h>
 #include <limits.h>
 
-#include "brg_endian.h"
+#include "../gladman-aes/brg_endian.h"
 
 /*  This define sets the units in which buffers are processed.  This code
     can provide significant speed gains if buffers can be processed in
@@ -51,7 +51,7 @@ This header file is an INTERNAL file which supports mode implementation
 #  define NEED_UINT_64T
 #endif
 
-#include "brg_types.h"
+#include "../gladman-aes/brg_types.h"
 
 /*  Use of inlines is preferred but code blocks can also be expanded inline
     using 'defines'.  But the latter approach will typically generate a LOT

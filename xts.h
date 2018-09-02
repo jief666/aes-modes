@@ -29,7 +29,7 @@
 #ifndef _XTS_H
 #define _XTS_H
 
-#include "aes.h"
+#include "../gladman-aes/aes.h"
 
 #if defined(__cplusplus)
 extern "C"
